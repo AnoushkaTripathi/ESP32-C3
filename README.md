@@ -24,3 +24,9 @@ went well, the command should complete with the message:
 Project build complete. To flash, run this command:
 ...
 or run 'idf.py -p (PORT) flash'
+
+If all went well, you will see that it recognizes the device and uploads the compiled software
+to it. In order to see hello_world run, we monitor it with:
+```
+PS C:> idf.py -p COM14 monitor
+```
